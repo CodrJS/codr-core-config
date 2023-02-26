@@ -1,4 +1,7 @@
-# Kafka Micro-Service Template
+# Kafka Microservice Template
+
+[![CodeQL](https://github.com/CodrJS/ts-microservice-template/actions/workflows/codeql.yml/badge.svg)](https://github.com/CodrJS/ts-microservice-template/actions/workflows/codeql.yml)
+[![Docker Image CI](https://github.com/CodrJS/ts-microservice-template/actions/workflows/docker-image.yml/badge.svg)](https://github.com/CodrJS/ts-microservice-template/actions/workflows/docker-image.yml)
 
 ## Getting Started
 
