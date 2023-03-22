@@ -16,11 +16,6 @@ const ConfigSchema = new Schema<Config>(
   }
 );
 
-export type IConfig = Config & {
-  _id: ObjectId;
-};
-
 export type ConfigDocument = Config & Document;
-// @ts-ignore
-const Config = model<ConfigDocument>("Config", ConfigSchema);
+const Config = model<Config>("Config", ConfigSchema);
 export default Config;

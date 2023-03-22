@@ -1,4 +1,4 @@
-import { types, User } from "@codrjs/models";
+import { types, IUser } from "@codrjs/models";
 import { ConfigDocument } from "./Config";
 
 const permissions: types.Permissions<ConfigDocument, "Config"> = {
@@ -16,6 +16,6 @@ const permissions: types.Permissions<ConfigDocument, "Config"> = {
   },
 };
 
-const ConfigAbility = (user: User.IUser) =>
+const ConfigAbility = (user: IUser) =>
   types.DefineAbility(user, permissions);
 export default ConfigAbility;

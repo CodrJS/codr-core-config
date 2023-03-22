@@ -21,7 +21,7 @@ Custom built consumer and producer classes can be imported from `@codrjs/kafka`.
 
 ### Producers
 
-- [x] `codr.state.core.config` - used for audit and notification purposes.
+- [x] `codr.event.core.config` - used for audit and notification purposes.
 
 ### Consumers
 
